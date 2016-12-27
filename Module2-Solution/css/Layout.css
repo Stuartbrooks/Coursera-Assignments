@@ -1,17 +1,22 @@
-*{
+* {
 box-sizing: border-box;
-margin 0;
-padding 0;
 }
-.Container{
+.Container
+p {
+	Background-color: #e6ac00;
+	border: 1px solid black;
+}
+{
 	background-color: white;
 	width: 100%;
-  Clear: both;
+	clear: both;
 }
 div{
-Background-color: #e6ac00;
+;
+box-sizing: border-box;
 color: white;
-padding: 1em;
+Padding: 2em;
+
 }
 #head1
 {
@@ -40,7 +45,8 @@ Body {
 @media(max-width: 767px){
 .Cell-C-1, .Cell-C-2, .Cell-C-3, .Cell-C-4, .Cell-C-5, .Cell-C-6, .Cell-C-7, .Cell-C-8, .Cell-C-9, .Cell-C-10, .Cell-C-11, .Cell-C-12 
 {float: left;
-border: 1px solid black;}
+box-sizing: border-box;
+}
 .Cell-C-1
 {
 	width: 8.33%;
@@ -93,7 +99,7 @@ width: 100%;
 @media(max-width: 991px) and (min-width: 768px){
 .Tab-C-1, .Tab-C-2, .Tab-C-3, .Tab-C-4, .Tab-C-5, .Tab-C-6, .Tab-C-7, .Tab-C-8, .Tab-C-9, .Tab-C-10, .Tab-C-11, .Tab-C-12 
 {float: left;
-border: 1px solid black;}
+}
 .Tab-C-1
 {
 	width: 8.33%;
@@ -143,10 +149,10 @@ border: 1px solid black;}
 width: 100%;
 }
 }
-@media(min-width: 992px){
+@media(min-width: 995px){
 .PC-C-1, .PC-C-2, .PC-C-3, .PC-C-4, .PC-C-5, .PC-C-6, .PC-C-7, .PC-C-8, .PC-C-9, .PC-C-10, .PC-C-11, .PC-C-12 
 {float: left;
-border: 1px solid black;}
+}
 .PC-C-1
 {
 	width: 8.33%;
