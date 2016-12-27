@@ -1,0 +1,198 @@
+*{
+box-sizing: border-box;
+margin 0;
+padding 0;
+}
+.Container{
+	background-color: white;
+	width: 100%;
+  Clear: both;
+}
+div{
+Background-color: #e6ac00;
+color: white;
+padding: 1em;
+}
+#head1
+{
+	Background-color: black;
+	float: right;
+	clear: right;
+	color: white;
+}
+#head2
+{
+	Background-color: #2d5986;
+	float: right;
+	clear: right;
+	color: white;
+}
+#head3
+{
+	float: right;
+	clear: right;
+	Background-color: maroon;
+	color: white;
+}
+Body {
+	font-family: "Times New Roman", serif;
+	}
+@media(max-width: 767px){
+.Cell-C-1, .Cell-C-2, .Cell-C-3, .Cell-C-4, .Cell-C-5, .Cell-C-6, .Cell-C-7, .Cell-C-8, .Cell-C-9, .Cell-C-10, .Cell-C-11, .Cell-C-12 
+{float: left;
+border: 1px solid black;}
+.Cell-C-1
+{
+	width: 8.33%;
+}
+.Cell-C-2
+{
+	width: 16.66%;
+}
+.Cell-C-3
+ {
+	width: 25%;
+ }
+.Cell-C-4
+{
+	width: 33%;
+}
+.Cell-C-5
+	{
+		width: 41.66%;
+	}
+.Cell-C-6
+{
+	width: 50%;
+}
+.Cell-C-7
+ {
+	width: 58.33%;
+ }
+.Cell-C-8
+{
+	width: 66.6%;
+}
+.Cell-C-9
+{
+ width: 75%;
+}
+.Cell-C-10
+ {
+	width: 83.33%;
+ }
+.Cell-C-11
+{
+	width: 91.66%;
+}
+.Cell-C-12
+{
+width: 100%;
+}
+}
+@media(max-width: 991px) and (min-width: 768px){
+.Tab-C-1, .Tab-C-2, .Tab-C-3, .Tab-C-4, .Tab-C-5, .Tab-C-6, .Tab-C-7, .Tab-C-8, .Tab-C-9, .Tab-C-10, .Tab-C-11, .Tab-C-12 
+{float: left;
+border: 1px solid black;}
+.Tab-C-1
+{
+	width: 8.33%;
+}
+.Tab-C-2
+{
+	width: 16.66%;
+}
+.Tab-C-3
+ {
+	width: 25%;
+ }
+.Tab-C-4
+{
+	width: 33%;
+}
+.Tab-C-5
+	{
+		width: 41.66%;
+	}
+.Tab-C-6
+{
+	width: 50%;
+}
+.Tab-C-7
+ {
+	width: 58.33%;
+ }
+.Tab-C-8
+{
+	width: 66.6%;
+}
+.Tab-C-9
+{
+ width: 75%;
+}
+.Tab-C-10
+ {
+	width: 83.33%;
+ }
+.Tab-C-11
+{
+	width: 91.66%;
+}
+.Tab-C-12
+{
+width: 100%;
+}
+}
+@media(min-width: 992px){
+.PC-C-1, .PC-C-2, .PC-C-3, .PC-C-4, .PC-C-5, .PC-C-6, .PC-C-7, .PC-C-8, .PC-C-9, .PC-C-10, .PC-C-11, .PC-C-12 
+{float: left;
+border: 1px solid black;}
+.PC-C-1
+{
+	width: 8.33%;
+}
+.PC-C-2
+{
+	width: 16.66%;
+}
+.PC-C-3
+ {
+	width: 25%;
+ }
+.PC-C-4
+{
+	width: 33%;
+}
+.PC-C-5
+	{
+		width: 41.66%;
+	}
+.PC-C-6
+{
+	width: 50%;
+}
+.PC-C-7
+ {
+	width: 58.33%;
+ }
+.PC-C-8
+{
+	width: 66.6%;
+}
+.PC-C-9
+{
+ width: 75%;
+}
+.PC-C-10
+ {
+	width: 83.33%;
+ }
+.PC-C-11
+{
+	width: 91.66%;
+}
+.PC-C-12
+{
+width: 100%;
+}
+}
